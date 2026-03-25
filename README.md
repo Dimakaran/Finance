@@ -78,18 +78,7 @@ docker run -d \
   ghcr.io/bscott/subtrackr:latest
 ```
 
-### Option 3: Build from Source
 
-1. **Clone the repository**:
-```bash
-git clone https://github.com/bscott/subtrackr.git
-cd subtrackr
-```
-
-2. **Build and run with Docker Compose**:
-```bash
-docker-compose up -d --build
-```
 
 
 
