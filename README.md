@@ -58,25 +58,7 @@ docker-compose up -d
 
 3. **Access SubTrackr**: Open http://localhost:8080
 
-### Option 2: Docker Run
 
-```bash
-docker run -d \
-  --name subtrackr \
-  -p 8080:8080 \
-  -v $(pwd)/data:/app/data \
-  -e GIN_MODE=release \
-  ghcr.io/bscott/subtrackr:latest
-
-# Optional: With currency conversion enabled
-docker run -d \
-  --name subtrackr \
-  -p 8080:8080 \
-  -v $(pwd)/data:/app/data \
-  -e GIN_MODE=release \
-  -e FIXER_API_KEY=your_fixer_api_key_here \
-  ghcr.io/bscott/subtrackr:latest
-```
 
 
 
